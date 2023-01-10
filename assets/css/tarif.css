@@ -1,0 +1,55 @@
+body{
+    background-color: #000000;
+}
+
+.color-perso-main{
+    background-color: #2b2828;
+}
+h1,h2{
+    color: white;
+}
+
+.tableau{
+    color: white ;
+    margin-left: 10%;
+}
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    color:rgb(143, 133, 133)
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.footer-color-perso{
+    color: white
+}
+.flexg{
+    margin-right: 5%;
+    width: auto ;
+
+
+}
+
+.logofoot{
+    width: 50px;
+    height: 50px;
+}
+
+#reduc{
+    margin-left: 10px;
+    width: 100px;
+    height : 100px ;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AllShow | Tarifs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/tarif.css">
+  <link rel="stylesheet" href="./assets/css/nav.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/all_show.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">All Show</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./Programme.html">Programme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="./Produits.html" role="button" aria-haspopup="true" aria-expanded="false">Produits</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./Produit.html#clothes">Vêtements</a>
+              <a class="dropdown-item" href="./Produit.html#goodies">Goodies</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModalForm">
+                <a class="nav-link" href="#">Connexion</a>
+                
+              </button>
+            <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="myform bg-dark">
+                            <h1 class="text-center">Connexion</h1>
+                            <form>
+                                <div class="mb-3 mt-4">
+                                    <label for="exampleInputEmail1" class="form-label">Adresse Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Mot de Passe</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <button type="submit" class="btn btn-light mt-3">Se Connecter</button>
+                                <p class="navP"> <a class="link" href="#">S'inscrire</a></p>
+                            </form>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2 opacity-25" type="text" placeholder="Recherche">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">OK</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+  <div class="container mt-5 color-perso-main h-5 mb-5">
+    <h1 class="fw-bold">TARIFS</h1>
+    <h2 class="text-center mb-5 fw-bold">1 PLACE ACHETÉ = LA DEUXIÈME MOITIÉ PRIX <img src="./assets/images/reduc.png" alt="image reduction 50%" id="reduc"></h2>
+    <div class="tableau">
+
+      <div class="row ">
+        <div class="col-4 fw-bold">JOUR 1</div>
+        <div class="col-4 fw-bold">JOUR 2</div>
+        <div class="col-4 fw-bold">JOUR 3</div>
+      </div>
+      <div class="row ">
+        <div class="col-4 ">1 Place adulte = 20€</div>
+        <div class="col-4 ">1 Place adulte = 15€</div>
+        <div class="col-4 ">1 Place adulte = 25€</div>
+
+      </div>
+      <div class="row">
+        <div class="col-4 mb-5">1 Place enfant = 10€</div>
+        <div class="col-4 mb-5">1 Place enfant = 10€</div>
+        <div class="col-4 mb-5">1 Place enfant = 15€</div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #2b2828">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+      <section class="mt-5">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="./Produit.html" class="text-white">Boutique</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="./Programme.html" class="text-white">Programmes</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="./tarif.html" class="text-white">Tarifs</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="./contact.html" class="text-white">Contact</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="./artiste.html" class="text-white">Artistes</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-5" />
+
+      <!-- Section: Text -->
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              Ce site à été designer par Clara, Abas et Stéfen <br>
+              Merci à tous ces artiste de leur présence. <br>
+              N'hesitez pas à nous contacter pour plus d'information !
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Social -->
+      <section class="text-center mb-5">
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+      <!-- Section: Social -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >Allshows.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+<!-- End of .container -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

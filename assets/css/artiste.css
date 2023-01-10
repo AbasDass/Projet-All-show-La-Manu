@@ -1,0 +1,86 @@
+#image1{
+    position: relative;
+}
+.text-over{
+    position: absolute;
+    left: 10% ;
+    top: 10% ;
+    color: white ;
+}
+
+.img-perso{
+    height: 100%;
+    width:70%;
+}
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    color:rgb(143, 133, 133)
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+
+.container-fluid {
+    background-color: black;
+}
+h1{
+    margin-bottom: 30px;
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+}
+.text-over{
+    font-size: 50px;
+}
+.artisteName:hover{
+    color: white ;
+   font-weight: bold;
+    font-size: 50px;
+}
+.artisteName{
+    filter: drop-shadow(2px 2px 2px black);
+}
+a{
+    text-decoration: none;
+    color: white
+}
+
+.logofoot{
+    width: 50px;
+    height: 50px;
+}
+.logofoot{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 754px){
+    .text-over{
+        font-size: 20px;
+    }
+    
+
+}

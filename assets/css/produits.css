@@ -1,0 +1,20 @@
+body{
+    
+    background-color: black;
+}
+
+.col-clothes{
+    height: 35rem;
+}
+
+.img-clothes{
+    height: 21rem;
+}
+
+.row{
+    padding: 0;
+}
+
+.col{
+    padding: 0;
+}

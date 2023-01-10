@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+
+.navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    color: rgb(143, 133, 133)
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.bg-img1 {
+    background-image: url('../images/matt-botsford-OKLqGsCT8qs-unsplash.jpg');
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100em;
+    background-position: center;
+    width: 100%;
+    height: 30em;
+    text-align: center;
+}
+
+.paraTop {
+    font-size: 10px;
+}
+
+
+.paraIntro {
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+
+.card-body {
+    background-color: rgb(5, 5, 5);
+}
+
+.card {
+    border-style: none;
+    margin-left: 80px;
+}
+
+.btn {
+    text-decoration: solid;
+    background-color: rgb(0, 0, 0);
+    font-family: fantasy;
+}
+
+.sopra {
+    height: 350px;
+    margin-top: 45px;
+}
+
+.allStar {
+    height: 300px;
+}
+
+h2 {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sizeH2 {
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
+}
+
+
+
+p {
+    font-family: fantasy;
+    color: rgb(228, 222, 222);
+    font-size: 2.4em;
+}
+
+.bg {
+    background-color: rgb(12, 12, 12);
+}
+
+span {
+    color: black;
+}
+
+.logofoot {
+    height: 50px;
+}
+
+h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 50px;
+}

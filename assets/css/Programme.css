@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+.img{
+    background-image: url("../images/ban_prog.jpg");
+    background-size: cover;
+    background-position-y: -100px;
+    height: 20rem;
+}
+
+@media screen AND (max-width:650px) {
+    .img{
+        background-position-y: 0px;
+        height: 10rem;
+    }
+}
+
+.card-body{
+    display: grid;
+    grid-template-columns: 14rem 1fr;
+
+}
+
+@media screen AND (max-width:650px) {
+    .card-body{
+        grid-template-columns: 0.5fr 1fr;
+        padding: 0.3rem;
+    }
+}
+
+.card-title{
+    margin-bottom: 0.5rem;
+}
+
+@media screen AND (max-width:650px) {
+    .card-title{
+        font-size: 1.2rem;
+    }
+}
+
+.card-text{
+    margin-bottom: 0.5rem;
+    align-self: center;
+
+}
